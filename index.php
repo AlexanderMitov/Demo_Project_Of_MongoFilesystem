@@ -40,5 +40,4 @@ $renderer = new JSONFolderRenderer($mongoFolder); //creating an instance of the 
 echo $renderer->render(); //the render() method renders the passed folder in the constructor and returns the rendered view as a string
 //$fs->downloadAndOutputFolder($mongoFolder); //Creates a zip of the folder and passes it to the browser client
 $connection->close();//now close the connection to the MongoDB server
-echo "WHAAAT";
 ?>
