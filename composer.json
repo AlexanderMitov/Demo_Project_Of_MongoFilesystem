@@ -1,5 +1,0 @@
-{
-	"require": {
-		"alexander-mitov/mongo-filesystem": "1.0.*"
-	}
-}
