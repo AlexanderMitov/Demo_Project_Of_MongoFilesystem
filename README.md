@@ -8,7 +8,7 @@ Installing and running the project
 
 To run the project you must install Composer: https://getcomposer.org/doc/00-intro.md
 
-Then run the 'composer install' command
+Then run the `composer install` command
 
 And finally open with PHP the index.php file
 
