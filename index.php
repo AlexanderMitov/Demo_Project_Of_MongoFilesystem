@@ -35,7 +35,7 @@ else
 $mongoFolder = $fs->getFolderByPath($relativePath); //getting a MongoFolder instance of the folder with the passed path
 $renderer = new JSONFolderRenderer($mongoFolder); //creating an instance of the JSONFolderRenderer by passing the MongoFolder object
 /*
-* NOTE: You can't use output the rendered folder and download the folder as a zip at the same time
+* NOTE: You can't output the rendered folder and download the folder as a zip at the same time
 */
 echo $renderer->render(); //the render() method renders the passed folder in the constructor and returns the rendered view as a string
 //$fs->downloadAndOutputFolder($mongoFolder); //Creates a zip of the folder and passes it to the browser client
